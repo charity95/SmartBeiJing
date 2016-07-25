@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="10dp">
+    <ImageView 
+        android:id="@+id/iv_icon"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:src="@drawable/image_demo"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"/>
+    <TextView 
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/iv_icon"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:text="马路改建为停车场车位年费高达3000元马路改建为停车场车位年费高达3000元"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_title"
+        android:layout_below="@+id/tv_title"
+        android:paddingTop="3dp"
+        android:textColor="#8000"
+        android:textSize="16sp"
+        android:text="TextView" />
+
+</RelativeLayout>
